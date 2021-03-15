@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !^(.+)\.(js|css|gif|png|jpe?g|swf|ico|txt|html)$
+RewriteRule ^(.+)/?$ /index.html

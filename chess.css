@@ -1,0 +1,136 @@
+ul
+{
+    font-size: 10px;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    text-align: center; 
+    line-height: 2.0;
+    background-color: #042c49;
+    color: #bbbbff;
+    font: 100% "Trebuchet MS", sans-serif;
+}
+
+img
+{
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+div
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+a
+{
+    color: #bbaa00;
+}
+
+.hidden
+{
+    display: none;
+}
+
+
+.promoselection
+{
+    background-color: #bbcc22; 
+}
+.promounselected
+{
+    background-color: #553022; 
+}
+
+#promotionpiecebox
+{
+    height: 50px;
+}
+
+#white_promotion
+{
+    background-color: #20bbcc; 
+    width: 360px; 
+    padding: 0px; 
+}
+
+#black_promotion
+{
+    background-color: #20bbcc; 
+    width: 360px; 
+    padding: 0px; 
+    margin: 0px;
+    position: relative;
+    left:50%;
+    top:50% -160px;
+}
+
+#centeredboard
+{
+    position:absolute; 
+    left: 50%; 
+    width: 600;
+    margin-left: -180px;
+    background-color: #244c79;
+}
+
+#cssboard 
+{
+    clear: both;
+}
+
+[class*='br']
+{
+    clear: both;
+}
+
+[class*='bc']
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:49px;
+    height:49px;
+    border-width: 2px; 
+    border-style: solid; 
+}
+
+[class*='bcw']
+{
+    background-color: #ffdead;
+    border-color: #ffdead; 
+    float: left;:w
+}
+
+[class*='bcb']
+{
+    background-color: #cdb79e;
+    border-color: #cdb793;
+    float: left;:w
+}
+
+[marker]
+{
+    border-width: 2px;
+    border-style: solid;
+}
+
+[marker=red]
+{
+    border-color: #FF4520;
+}
+
+[marker=green]
+{
+    border-color: #009320;
+}
+
+[marker=blue]
+{
+    border-color: #2045ff;
+}

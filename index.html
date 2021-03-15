@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="chess.css"/>
+</head>
+<html>
+<div id="centeredboard">
+    <div id="promotionpiecebox">
+        <div id="white_promotion"
+             class="hidden">
+    <img id="pwq" src="imgs/qlt.png"></img> 
+    <img id="pwr" src="imgs/rlt.png"></img> 
+    <img id="pwn" src="imgs/nlt.png"></img> 
+    <img id="pwb" src="imgs/blt.png"></img> 
+        </div>  
+        <div id="black_promotion"
+             class="hidden"> 
+    <img id="pbq" src="imgs/qdt.png"></img> 
+    <img id="pbr" src="imgs/rdt.png"></img> 
+    <img id="pbn" src="imgs/ndt.png"></img> 
+    <img id="pbb" src="imgs/bdt.png"></img> 
+        </div> 
+    </div>
+<div id="cssboard"></div>
+
+<div id="sharebox" class="hidden">
+    <button onClick="window.location.reload()">Undo</button>
+    
+    <div id="moveurl"></div>
+
+    <div id="tweetbox">
+    <a
+    id="tweeboxlink" 
+    href="https://twitter.com/share" 
+    class="twitter-share-button" 
+    data-url="http://JUGADA" 
+    data-text="TEXTO_PARTIDA" 
+    data-size="large" 
+    data-count="none" 
+    data-hashtags="twches" 
+    data-dnt="true">Tweet</a>
+    </div> 
+</div>
+
+
+<div id="statusbox">
+    <h2>LOADING</h2>
+</div>
+
+<h6>by <a href="http://www.hontecillas.com/">David Hontecillas</a></h6> 
+</div>
+
+<script src="js/cssdraw.js"></script>
+<script src="js/share.js"></script> 
+<script src="js/boardcontroller.js"></script> 
+<script src="js/codec.js"></script> 
+<script src="js/board.js"></script>
+<script src="js/piecepromo.js"></script> 
+<script src="js/init.js"></script> 
+
+</script>
+</html>
